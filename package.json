@@ -16,6 +16,9 @@
     "prettier-plugin-solidity": "^1.0.0-alpha.60",
     "solhint": "^3.3.2"
   },
+  "scripts": {
+    "test": "npx truffle compile && mocha --exit --recursive"
+  },
   "dependencies": {
     "@openzeppelin/contracts": "^3.2.0"
   }
