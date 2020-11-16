@@ -21,7 +21,7 @@
     "solhint": "^3.3.2"
   },
   "scripts": {
-    "test": "npx truffle compile && mocha --exit --recursive"
+    "test": "npx truffle compile && mocha --exit --recursive --timeout 10000"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.2.0"
